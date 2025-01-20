@@ -70,6 +70,44 @@ color:#01ACFD;
 .hero-kids{
   width:100%;
 }
+/*part 2 standard curriculam*/
+.card-1{
+  border-radius:15px;
+  background-color:#DEF5FF;
+}
+.card-2{
+  border-radius:15px;
+  background-color:#FFF4DC;
+}
+.card-3{
+  border-radius:15px;
+  background-color:#F2E8FF;
+}
+.card-container{
+  display: flex;
+  
+  gap:30px;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.read-more-1{
+  color:#64C8FF;
+ }
+.read-more-2{
+  color:#F0AA00;
+}
+.read-more-3{
+  color:#8700FF;
+}
+
+
+
+
+
   @media only screen and (max-width: 576px) {
     .header,.header-2 {
       flex-direction: column;
