@@ -161,7 +161,10 @@ justify-content: center;
   justify-content: center;
 }
 /*part 3 our stories*/
+.our-stories{
+  background-image: linear-gradient(to top, white,#FFDDA2);
 
+}
 .view-all{
   display: flex;
       justify-content: center;
@@ -181,6 +184,25 @@ justify-content: center;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap:15px;
+}
+.Nov-single{
+  border-radius: 40px;
+  padding:15px 40px;
+  background-color:rgba(60, 216, 232, 1);
+  color:white;
+  border:none;
+  margin-left:-500px;
+}
+.A-fun{
+  
+  font-size: 30px;
+}
+.one-img{
+  background-color:white;
+  
+}
+.beautiful{
+  margin-left:5px;
 }
 /* footer*/
 
@@ -213,8 +235,11 @@ justify-content: center;
 
 .footer-logo h4 {
   margin: 0 0 10px;
-}
 
+}
+p{
+  margin-left:-40px;
+}
 .footer-section h4 {
   margin-bottom: 10px;
 }
@@ -228,10 +253,12 @@ justify-content: center;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: block;
 }
 
 .footer-section ul li {
   margin: 5px 0;
+  
 }
 
 .footer-section ul li a {
@@ -241,9 +268,6 @@ justify-content: center;
 
 }
 
-.footer-section ul li a:hover {
-  text-decoration: underline;
-}
 
 .social-icons a {
   margin: 0 10px;
@@ -254,6 +278,7 @@ justify-content: center;
   width: 30px;
   height: auto;
 }
+
 
 
   @media only screen and (max-width: 576px) {
